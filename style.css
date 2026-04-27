@@ -1,1 +1,166 @@
+/* =========================================
+   RESETEO Y CONFIGURACIÓN BASE
+   ========================================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    /* Usamos Montserrat para ese peso visual de Christian */
+    font-family: 'Montserrat', sans-serif; 
+    background-color: #444; 
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Contenedor del CV */
+.cv-container {
+    width: 210mm; /* Ancho estándar A4 */
+    min-height: 297mm;
+    background-color: #ececec; /* El tono grisáceo de fondo de la imagen */
+    display: flex;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* =========================================
+   BARRA LATERAL (IZQUIERDA - NEGRA)
+   ========================================= */
+.sidebar {
+    width: 35%;
+    background-color: #000; /* Negro total */
+    color: #fff;
+    padding: 0;
+}
+
+.photo-container {
+    width: 100%;
+    padding: 20px;
+}
+
+.profile-img {
+    width: 100%;
+    display: block;
+    /* Mantiene la proporción de la foto de Christian */
+    object-fit: cover; 
+}
+
+.sidebar-content {
+    padding: 0 25px 25px 25px;
+}
+
+/* Títulos con Iconos en Sidebar */
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.sidebar-icon {
+    width: 20px;
+    margin-right: 10px;
+    filter: invert(1); /* Convierte iconos negros en blancos automáticamente */
+}
+
+.sidebar h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Textos de la barra lateral */
+.sidebar p, .sidebar li {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.edu-item {
+    margin-bottom: 15px;
+}
+
+.edu-title {
+    font-weight: 700;
+}
+
+.edu-subtitle {
+    font-style: italic;
+    font-size: 0.75rem;
+    display: block;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    margin-bottom: 6px;
+}
+
+.skills-list li::before {
+    content: "▪ "; /* El puntito cuadrado de la imagen */
+    margin-right: 5px;
+}
+
+/* =========================================
+   CONTENIDO PRINCIPAL (DERECHA - BLANCO/GRIS)
+   ========================================= */
+.main-content {
+    width: 65%;
+    padding: 50px 40px;
+}
+
+/* Encabezado: Nombre y Línea Gruesa */
+.header-name {
+    margin-bottom: 40px;
+}
+
+.header-name h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.black-bar {
+    width: 100%;
+    height: 12px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+/* Bloques de información */
+.info-section {
+    margin-bottom: 30px;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.main-icon {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.info-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info-section p {
+    font-size: 0.85rem;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Experiencia Laboral */
+.exp-block {
+    margin-top
