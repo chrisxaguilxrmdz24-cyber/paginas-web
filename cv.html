@@ -4,47 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Christian Aguilar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="cv-container">
-        <!-- COLUMNA IZQUIERDA / SIDEBAR -->
         <aside class="sidebar">
-            <div class="profile-img-container">
-                <!-- Usa la foto que subiste -->
-                <img src="image_62be99.jpeg" alt="Foto de perfil Christian Aguilar" class="profile-img">
+            <div class="photo-box">
+                <img src="CV/foto_perfil.jpg" alt="Christian Aguilar" class="profile-img">
             </div>
 
-            <div class="sidebar-content">
-                <section class="contact">
-                    <h3>CONTACTO</h3>
-                    <div class="contact-item">
-                        <span class="icon">📞</span>
-                        <p>7123428352</p>
+            <div class="sidebar-padding">
+                <section class="contact-section">
+                    <div class="icon-title">
+                        <img src="CV/phone.png" alt="icon" class="small-icon">
+                        <h3>Contacto</h3>
                     </div>
-                    <div class="contact-item">
-                        <span class="icon">📍</span>
-                        <p>Calle Privada Madero<br>Ixtlahuaca</p>
+                    <p class="contact-text">7123428352</p>
+                    <p class="contact-text">calle privada madero ixtlahuaca</p>
+                </section>
+
+                <section class="education-section">
+                    <div class="icon-title">
+                        <img src="CV/grad.png" alt="icon" class="small-icon">
+                        <h3>Formación</h3>
+                    </div>
+                    <div class="edu-item">
+                        <p class="bold">preparatoria</p>
+                        <p class="light">instituto cultural canadiense<br>2025 - 2026</p>
+                    </div>
+                    <div class="edu-item">
+                        <p class="bold">secundaria</p>
+                        <p class="light">vicente guerrero federalizada</p>
                     </div>
                 </section>
 
-                <section class="formation">
-                    <h3>FORMACIÓN</h3>
-                    <div class="formation-item">
-                        <p><strong>Preparatoria</strong></p>
-                        <p class="subtext">Instituto Cultural Canadiense<br>2025-2026</p>
+                <section class="skills-section">
+                    <div class="icon-title">
+                        <img src="CV/skills.png" alt="icon" class="small-icon">
+                        <h3>Habilidades</h3>
                     </div>
-                    <div class="formation-item">
-                        <p><strong>Secundaria</strong></p>
-                        <p class="subtext">Vicente Guerrero Federalizada</p>
-                    </div>
-                </section>
-
-                <section class="skills">
-                    <h3>HABILIDADES</h3>
                     <ul>
-                        <li>Edición</li>
+                        <li>Edicion</li>
                         <li>Ventas</li>
                         <li>Técnicas de Negociación</li>
                         <li>Marketing Digital</li>
@@ -53,48 +55,48 @@
             </div>
         </aside>
 
-        <!-- COLUMNA DERECHA / CONTENIDO PRINCIPAL -->
         <main class="main-content">
-            <header class="header-name">
-                <h1>CHRISTIAN<br>AGUILAR</h1>
-                <div class="line"></div>
+            <header class="main-header">
+                <h1 class="name">CHRISTIAN<br>AGUILAR</h1>
+                <div class="thick-line"></div>
             </header>
 
-            <section class="section-block">
-                <h2><span class="icon-title">👤</span> PERFIL PERSONAL</h2>
-                <p>
-                    Christian Aguilar Mendoza, 17 años. Estudiante de preparatoria con interés en el área financiera y de ventas. 
-                    Proactivo, con facilidad para aprender y adaptarme a nuevos retos.
-                </p>
+            <section class="info-block">
+                <div class="block-header">
+                    <img src="CV/user.png" alt="icon" class="dark-icon">
+                    <h3>Perfil Personal</h3>
+                </div>
+                <p>christian aguilar mendoza 17 años estudiante de preparatoria</p>
             </section>
 
-            <section class="section-block">
-                <h2><span class="icon-title">💼</span> EXPERIENCIA LABORAL</h2>
+            <section class="info-block">
+                <div class="block-header">
+                    <img src="CV/briefcase.png" alt="icon" class="dark-icon">
+                    <h3>Experiencia Laboral</h3>
+                </div>
                 
-                <div class="job">
-                    <h3>EXPERIENCIA MANEJANDO</h3>
-                    <ul>
-                        <li>Cuento con experiencia en el manejo de vehículos particulares. Además tengo conocimientos básicos sobre mecánica y mantenimiento.</li>
-                    </ul>
+                <div class="exp-item">
+                    <h4>EXPERIENCIA MANEJANDO</h4>
+                    <p>cuento con experiencia en el manejo de vehículos particulares ademas tengo conocimientos basicos sobre mecanica y mantenimiento</p>
                 </div>
 
-                <div class="job">
-                    <h3>EXPERIENCIA EN DEFENSA PERSONAL</h3>
-                    <ul>
-                        <li>Cuento con conocimientos sobre defensa para reaccionar en casos de riesgo priorizando siempre evitar conflictos.</li>
-                    </ul>
+                <div class="exp-item">
+                    <h4>EXPERIENCIA EN DEFENSA PERSONAL</h4>
+                    <p>cuento con conocimientos sobre defensa para reaccionar en casos de riesgo priorizando siempre evitar conflictos</p>
                 </div>
 
-                <div class="job">
-                    <h3>EXPERIENCIA DE VENTAS</h3>
-                    <ul>
-                        <li>Cuento con conocimientos sobre promoción y venta de productos, convenciendo con las características de ello.</li>
-                    </ul>
+                <div class="exp-item">
+                    <h4>EXPERIENCIA DE VENTAS</h4>
+                    <p>Cuento con conocimientos sobre promocion y venta de productos convenciendo con las caracteristicas de ello</p>
                 </div>
             </section>
-            <section class="section-block">
-                <h2><span class="icon-title">🌐</span> IDIOMAS</h2>
-                <ul class="languages">
+
+            <section class="info-block">
+                <div class="block-header">
+                    <img src="CV/lang.png" alt="icon" class="dark-icon">
+                    <h3>Idiomas</h3>
+                </div>
+                <ul class="lang-list">
                     <li>Español</li>
                     <li>Inglés Nivel Medio</li>
                     <li>Francés Nivel Básico</li>
@@ -102,5 +104,6 @@
             </section>
         </main>
     </div>
+
 </body>
 </html>
