@@ -1,1 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #555;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container {
+    width: 800px;
+    background-color: #f2f2f2; /* Color de fondo grisáceo suave de la imagen */
+    display: flex;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+/* SIDEBAR IZQUIERDO */
+.sidebar {
+    width: 35%;
+    background-color: #0c0c0c; /* Negro profundo */
+    color: white;
+}
+
+.photo-box {
+    padding: 30px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    border: 2px solid #555;
+}
+
+.sidebar-padding {
+    padding: 0 30px 30px 30px;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.small-icon {
+    width: 25px;
+    margin-right: 10px;
+    filter: invert(1); /* Hace que iconos negros se vean blancos */
+}
+
+.sidebar h3 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
+
+.contact-text, .edu-item {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.bold { font-weight: 700; text-transform: lowercase; }
+.light { font-weight: 300; font-size: 0.75rem; }
+
+.sidebar ul {
+    list-style: none;
+    font-size: 0.85rem;
+}
+
+.sidebar li { margin-bottom: 5px; }
+.sidebar li::before { content: "▪ "; color: white; margin-right: 5px; }
+
+/* COLUMNA DERECHA */
+.main-content {
+    width: 65%;
+    padding: 50px;
+}
+
+.main-header {
+    margin-bottom: 40px;
+}
+
+.name {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 0.9;
+    letter-spacing: 2px;
+}
+
+.thick-line {
+    width: 100%;
+    height: 12px;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+.info-block {
+    margin-bottom: 30px;
+}
+
+.block-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dark-icon {
+    width: 22px;
+    margin-right: 10px;
+}
+
+.block-header h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.info-block p, .exp-item p {
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.exp-item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.exp-item h4 {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.lang-list {
+    list-style: none;
+    font-size: 0.85rem;
+}
+
+.lang-list li::before {
+    content: "• ";
+    font-weight: bold;
